@@ -1,0 +1,17 @@
+[project]
+name = "experimental-jax-casadi"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Silvio Traversaro <silvio.traversaro@iit.it>"]
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[tasks]
+
+[dependencies]
+jax = ">=0.4.23,<0.5"
+icub-models = ">=2.4.1,<2.5"
+casadi = ">=3.6.3,<3.7"
+adam-robotics = ">=0.0.8,<0.1"
+scipy = ">=1.11.4,<1.12"
+numpy = ">=1.26.2,<1.27"
